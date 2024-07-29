@@ -21,7 +21,7 @@ header .logo {
 header .logo h1 {
     color: black;
     margin: 9px;
-    font-style: oblique;
+    font-family: 'Times New Roman';
 }
 
 header ul {
@@ -29,6 +29,7 @@ header ul {
     float: right;
     margin: 0px;
     padding: 0px;
+    font-family: sans-serif;
 }
 
 
@@ -44,7 +45,7 @@ header ul li a {
 }
 
 header ul li:hover {
-    background-color: black;
+    background-color: rgb(15, 12, 12);
     transition-duration: 0.6s;
     
 }
@@ -58,10 +59,28 @@ header .menu-toggle{
 body {
     padding: 0px;
     margin: 0px;
-    color: beige;
+    background-color: white;
+    color: black;
 }
 
+.darkmode {
+    background-color: black;
+    color: antiquewhite;
+}
 
+h5{
+    padding: 0px;
+    margin: none;
+    border: solid,red;
+}
+
+p {
+    padding: none;
+    margin: none;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 1.1em;
+    padding: 2pc;
+}
 
 
 
