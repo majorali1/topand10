@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+header {
+    background-color: rgb(148, 221, 38);
+    padding: 0px;
+    height: 4pc;
+    margin: 0px;
+}
+
+header .logo {
+    padding: 0px;
+    margin: 1mm;
+    height: inherit;
+    float: left;
+    
+}
+
+header .logo h1 {
+    color: black;
+    margin: 9px;
+    font-style: oblique;
+}
+
+header ul {
+    list-style: none;
+    float: right;
+    margin: 0px;
+    padding: 0px;
+    border: red,solid;
+}
+
+
+header ul li {
+    float: left;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: rgb(223, 193, 193);
+    display: block;
+    padding: 1.24pc;
+}
+
+header ul li:hover {
+    background-color: black;
+    transition-duration: 0.6s;
+    
+}
+
+header .menu-toggle{
+    display: none;
+}
+
+
+
+body {
+    padding: 0px;
+    margin: 0px;
+    color: beige;
+}
+
+
+
+
+
+
+
+
+
+
