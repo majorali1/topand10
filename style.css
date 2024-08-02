@@ -6,7 +6,7 @@
 header {
     background-color: rgb(148, 221, 38);
     padding: 0px;
-    height: 3.7pc;
+    height: 3.6pc;
     margin: 0px;
 }
 
@@ -22,6 +22,8 @@ header .logo h1 {
     color: black;
     margin: 9px;
     font-family: 'Times New Roman';
+    float: left;
+
 }
 
 header ul {
@@ -39,7 +41,7 @@ header ul li {
 
 header ul li a {
     text-decoration: none;
-    color: rgb(230, 46, 46);
+    color: rgb(255, 255, 255);
     display: block;
     padding: 1.24pc;
 }
@@ -54,38 +56,92 @@ header .menu-toggle{
     display: none;
 }
 
+button {
+    padding: 0px;
+    margin: auto;
+    text-decoration: none;
+    background: none;
+    display: block;
+    border: none;   
+    float: left;
+    margin-left: 2pc;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
 
+}
+button:hover {
+    background-color: white;
+    transition: 1s;
+}
 
 body {
     padding: 0px;
     margin: 0px;
-    background-color: white;
-    color: black;
+    background-color: rgb(245, 235, 235);
+    color: rgb(31, 30, 30);
 }
 
 .darkmode {
-    background-color: black;
-    color: antiquewhite;
+    background-color: rgb(43, 29, 29);
+    color: rgba(204, 198, 191, 0.911);
 }
 
-h5{
-    padding: 0px;
-    margin: none;
-    border: solid,red;
-}
 
-p {
+.mainline {
     padding: none;
     margin: none;
     font-family: 'Franklin Gothic Medium';
     font-size: 1.1em;
-    padding: 2pc;
+    padding-left: 70px;
+    padding-right: 70px;
 }
 
+.eyecatch {
+    padding: none;
+    margin: none;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 1.1em;
+    padding-left: 70px;
+    padding-right: 70px;
+}
 
+.game-title { 
+    margin: 0px;
+    margin-left: 30px;
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium';
+    padding: 0px;
+    display: block;
+    justify-content: center;
+    height: 40px;
+    text-align: center;
 
+}
 
+.game-image {
+    padding: 0px;
+    margin: 0px;
+    margin-left: 40px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
+.game10desc {
+    padding: none;
+    margin: none;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 1.1em;
+    padding-left: 70px;
+    padding-right: 70px;
+}
 
+.gamerating {
+    font-size: 2em;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Times New Roman';
+}
 
 
