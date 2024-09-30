@@ -1,0 +1,6 @@
+.venv
+__pycache__
+.env
+alembic.ini
+sql_app.db
+alembic
