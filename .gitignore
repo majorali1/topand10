@@ -4,3 +4,4 @@ __pycache__
 alembic.ini
 sql_app.db
 alembic
+test_db.db
